@@ -62,6 +62,8 @@ body {
     border-radius: 1rem;
     box-shadow: inset .2rem .2rem .5rem #c8d0e7, 
     inset -.2rem -.2rem .5rem #FFFFFF;
+    font-size: 10vw;
+    text-align: center;
 }
 
 

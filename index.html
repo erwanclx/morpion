@@ -10,7 +10,7 @@
 <h1 class="title">Le Morpion</h1>
 
 <div class="btn">
-    <button class="launch" onclick="newGame()">Lancer la partie ?</button>
+    <button class="launch" id="launch" onclick="newGame()">Lancer la partie ?</button>
         <div class="wrapper">
                 <input class="state" type="radio" name="app" id="a" value="a">
             <label class="label" for="a">
@@ -24,26 +24,22 @@
         <div class="indicator"></div>
         <span class="text">Multi</span>
         </label>
-        <!-- <input type="radio" name="radio"  id="solo"/><p>Solo</p> -->
         </div>
-
 </div>
 
 <div class="container">
     <div class="flex" id="flex">
-        <div class="cases">
-        </div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-        <div class="cases"></div>
-    <div>
+        <div data-index="0" class="cases"></div>
+        <div data-index="1" class="cases"></div>
+        <div data-index="2" class="cases"></div>
+        <div data-index="3" class="cases"></div>
+        <div data-index="4" class="cases"></div>
+        <div data-index="5" class="cases"></div>
+        <div data-index="6" class="cases"></div>
+        <div data-index="7" class="cases"></div>
+        <div data-index="8" class="cases"></div>
+    </div>
 </div>
-
 
 <script src="script.js"></script>
 
