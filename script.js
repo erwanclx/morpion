@@ -50,7 +50,6 @@ function clickCase(){
     this.innerHTML = activeplayer
 
     victorycheck()
-    // testing github
 }
 
 function victorycheck() {
